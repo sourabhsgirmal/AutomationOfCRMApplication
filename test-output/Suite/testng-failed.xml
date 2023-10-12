@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <classes>
+      <class name="com.vtigerTestcase.Tc_02_CreateContact">
+        <methods>
+          <include name="LunchBrowser"/>
+          <include name="Tc01_contact"/>
+          <include name="Loginpage"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.vtigerTestcase.Tc_02_CreateContact -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="classes" name="Test2(failed)">
+    <classes>
+      <class name="com.vtigerTestcase.Tc_03CreatecContactWithOrgTest">
+        <methods>
+          <include name="LunchBrowser"/>
+          <include name="Loginpage"/>
+          <include name="closebrowser"/>
+          <include name="Tc02_contactwithorg"/>
+        </methods>
+      </class> <!-- com.vtigerTestcase.Tc_03CreatecContactWithOrgTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
